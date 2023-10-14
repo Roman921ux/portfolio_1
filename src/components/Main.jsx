@@ -13,21 +13,17 @@ function Main() {
         <div className="section-health">
           <div className="title-column">
             <div className="list-title">
-              <a className='link'>Consern</a>
-              <a className='link'>Voder</a>
-              <a className='link'>Hoduos</a>
+              <a className='link'>House</a>
+              <a className='link'>Street</a>
+              <a className='link'>Garden</a>
             </div>
             <div className="strip"></div>
           </div>
           <div className="health">
-            <div className="title">Health Plants Happy Homes</div>
-            <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Nobis soluta ut earum saepe numquam quasi sunt in distinctio harum officia!
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Nobis soluta ut earum saepe numquam quasi sunt in distinctio harum officia!
-              sunt in distinctio harum officia!
+            <div className="title">Ornamental plants</div>
+            <div className="text">They will give your home a unique beauty and comfort, does not need care, it is enough only to wipe the dust occasionally during wet cleaning. In the assortment there are many types of some plants, which will help to pick up the plant you like for any interior
             </div>
-            <button className='button'>Buy now</button>
+            <button className='button'>Choose now</button>
             <div className="icons">
               <a className='icon-link' href='#'><LiaFacebookF className='icon' /></a>
               <a className='icon-link' href='#'><AiOutlineTwitter className='icon' /></a>
@@ -35,13 +31,12 @@ function Main() {
             </div>
           </div>
           <img className="img-tree" src='imgs/tree.png' />
-          <BsArrowRight className="arrow" />
+          
         </div>
         <div className="section-their">
           <img className="img-leaf" src='imgs/fear_1.png' />
           <div className="text-block">
-            <div className="title">The I wrepit Evering
-              Mydougs I redmer our let
+            <div className="title">It's time to upgrade your garden!
             </div>
             <div className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas architecto autem doloribus,
               pariatur quam repellat nostrum illo quod voluptate sint.
@@ -52,38 +47,33 @@ function Main() {
         </div>
         <div className="section-card">
           <p>Choose</p>
-          <span>Let`s get <br /> acquailed</span>
+          <span>Where is it more <br/> convenient for you to <br/> buy it?</span>
           <div className="text-block">
-            <div className="title">Show us</div>
+            <div className="title">Show the place on the map</div>
             <div className="text">
-              Lorem ipsum dolor sit amet
-              consectetur adipisicing
-              eveniet quam
+            The map will show the nearest stores near you
             </div>
           </div>
           <div className="text-block">
-            <div className="title">In rench</div>
-            <div className="text">Growen text</div>
+            <div className="title">Come at a convenient time</div>
+            <div className="text">We work in a convenient schedule</div>
           </div>
           <div className="text-block">
-            <div className="title">Letrosen</div>
-            <div className="text">Feared fier</div>
+            <div className="title">Buy !</div>
+            <div className="text">We will make a discount)</div>
           </div>
-          <button>Change now</button>
+          <button>Find Now</button>
           <iframe className='card' src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa8bebd70ed8c5d89f28e0004a37f9205ee09b52c678fb77153d4de411012d9b0&amp;source=constructor" width="1000" height="800" frameborder="0"></iframe>
         </div>
         <div className="section-flower">
           <div className="block-text">
-            <div className="title">Lorem ipsum dolor sit ipsum dolor trom</div>
-            <div className="text">Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Minima, reprehenderit minus. Fugit,
-              illo a iste doloremque rerum culpa unde aperiam.
-            </div>
+            <div className="title">Flowers are wonderful, do not forget about it</div>
+            <div className="text">You will smell the flowers and life will become much easier, try it or we will refund the money            </div>
             <a className='link'>More Qured</a>
           </div>
           <img className='img-flower' src='imgs/flower_1.png' />
-          <a className='link-icon'>Next</a>
-          <BsArrowRight className='icon' />
+          
+          
         </div>
         <div className="section-glass">
           <img className="img-glass" src='/imgs/glass_1.png' />

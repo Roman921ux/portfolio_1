@@ -1,16 +1,20 @@
 @import url('./Style.scss');
 
 body {
-  font-family: 'Rajdhani', sans-serif;
-  
-  //font-family: 'Shadows Into Light', cursive;
+  //font-family: 'Rajdhani', sans-serif;
+
+  font-family: 'Shadows Into Light', cursive;
+}
+
+button {
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  overflow-x:  hidden;
+  overflow-x: hidden;
 }
 
 .container {
@@ -47,6 +51,19 @@ body {
             //a
             font-size: 18px;
             font-weight: 600;
+            position: relative;
+
+            &:hover {
+              &::before {
+                content: '';
+                display: block;
+                background-color: #151515bc;
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                top: 25px;
+              }
+            }
           }
         }
       }
@@ -109,10 +126,20 @@ body {
 
       .button {
         border: none;
-        background-color: royalblue;
-        color: #fff;
+        background-color: #fff;
+        color: #151515;
+        border: 1px solid #151515;
         padding: 18px 70px;
         margin-top: 65px;
+        font-size: 20px;
+        font-weight: 400;
+        transition: all 300ms ease-out;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #151515;
+          color: #fff;
+        }
       }
 
       .icons {
@@ -125,6 +152,13 @@ body {
           .icon {
             width: 30px;
             height: 30px;
+            transition: all 300ms ease-out;
+
+            &:hover {
+              width: 28px;
+              height: 28px;
+              margin-right: 2px;
+            }
           }
         }
       }
@@ -156,7 +190,7 @@ body {
       position: absolute;
       left: -101px;
       top: -80px;
-
+      border-top-left-radius: 30px;
       height: 570px;
       z-index: -10;
     }
@@ -169,14 +203,14 @@ body {
       background-color: #fff;
 
       .title {
-        font-size: 30px;
+        font-size: 35px;
         font-weight: 800;
         max-width: 350px;
         line-height: 45px;
       }
 
       .text {
-        margin-top: 20px;
+        margin-top: 25px;
         margin-bottom: 50px;
         max-width: 380px;
 
@@ -188,6 +222,13 @@ body {
       .link {
         font-size: 25px;
         font-weight: 600;
+        transition: all 300ms ease-out;
+
+        &:hover {
+          cursor: pointer;
+          border: 1px solid #151515;
+          padding: 10px 25px;
+        }
       }
 
       //a
@@ -200,6 +241,15 @@ body {
 
       width: 50px;
       height: 50px;
+      transition: all 300ms ease-out;
+
+      &:hover {
+        cursor: pointer;
+        width: 45px;
+        height: 45px;
+        top: 185px;
+        right: 0px;
+      }
     }
   }
 
@@ -211,21 +261,22 @@ body {
 
     p {
       font-size: 25px;
-      margin-bottom: 35px;
+      margin-bottom: 25px;
 
     }
 
     span {
-      font-size: 45px;
+      font-size: 42px;
       font-weight: 800;
       line-height: 50px;
+
     }
 
     .text-block {
-      margin-top: 38px;
+      margin-top: 45px;
 
       .title {
-        font-size: 20px;
+        font-size: 25px;
         font-weight: 600;
       }
 
@@ -239,29 +290,54 @@ body {
     }
 
     button {
-      margin-top: 70px;
+      font-size: 20px;
+      margin-top: 50px;
       padding: 18px 65px;
       background-color: #fff;
       border: 1px solid #151515;
       cursor: pointer;
+      transition: all 300ms ease-out;
+
+      &:hover {
+        background-color: #151515;
+        color: #fff;
+
+      }
     }
 
     .card {
       position: absolute;
-      top: 0;
+      height: 520px;
+      width: 950px;
+      top: 120px;
       right: -100px;
+      border-radius: 30px;
     }
   }
 
   .section-flower {
-    margin-top: 450px;
+    margin-top: 350px;
     position: relative;
 
     .block-text {
-      margin-left: 130px;
+      margin-left: 100px;
+
       background-color: #fff;
       display: inline-block;
-      padding: 15px 0;
+      padding: 35px 20px;
+      padding-left: 50px;
+      border-left: 1px solid #151515;
+      position: relative;
+
+      &:before {
+        content: '';
+        background-color: #151515;
+        width: 150px;
+        height: 1px;
+        position: absolute;
+        top: 350px;
+        left: 50px;
+      }
 
       .title {
         font-size: 35px;
@@ -286,7 +362,12 @@ body {
         font-weight: 800;
         max-width: 300px;
         line-height: 40px;
+        transition: all 300ms ease-out;
 
+        &:hover {
+          cursor: pointer;
+          font-size: 34px;
+        }
       }
     }
 
@@ -295,6 +376,7 @@ body {
       top: -50px;
       right: 0;
       width: 1050px;
+      border-bottom-right-radius: 30px;
       z-index: -10;
     }
 
@@ -302,18 +384,27 @@ body {
       //a
       position: absolute;
       background-color: #fff;
-      padding: 30px 150px 30px 90px;
-      top: 550px;
+      padding: 30px 70px 30px 80px;
+
+      top: 560px;
       right: 0;
 
       font-size: 30px;
-      font-weight: 600;
+      font-weight: 100;
+      letter-spacing: 25px;
+      transition: all 300ms ease-out;
+
+      &:hover {
+        cursor: pointer;
+        letter-spacing: 20px;
+      }
+
     }
 
     .icon {
       position: absolute;
 
-      top: 580px;
+      top: 590px;
       right: 110px;
       font-size: 30px;
     }
@@ -324,11 +415,12 @@ body {
     padding-left: 60px;
     display: flex;
     gap: 60px;
-    
+
 
     .img-glass {
       width: 450px;
-      border-radius: 10px;
+      border-top-left-radius: 15px;
+      border-bottom-right-radius: 15px;
     }
 
     .text-block {
@@ -340,21 +432,22 @@ body {
         font-weight: 800;
         max-width: 320px;
       }
-  
+
       .text-block_2 {
-        
+
         .text {
           max-width: 300px;
           display: inline-block;
           margin-right: 80px;
           line-height: 30px;
+
           p {
             margin-bottom: 15px;
           }
         }
       }
     }
-   
+
   }
 }
 
@@ -394,7 +487,11 @@ body {
         }
 
         button {
-          padding: 20px 45px;
+          padding: 16px 45px;
+
+          &:hover {
+            cursor: pointer;
+          }
         }
       }
 
@@ -422,10 +519,17 @@ body {
         .footer__menu-link {
           //a
           font-size: 18px;
-
+          &:hover {
+            cursor: pointer;
+            color: #d0d0d0;
+          }
           &_active {
             font-size: 20px;
             font-weight: 800;
+            &:hover {
+              cursor: pointer;
+              color: #fff;
+            }
           }
         }
       }
@@ -447,6 +551,12 @@ body {
       .icon {
         width: 20px;
         height: 20px;
+        transition: all 300ms ease-out;
+        &:hover {
+          width: 18px;
+          height: 18px;
+          margin-right: 2px;
+        }
       }
     }
   }
