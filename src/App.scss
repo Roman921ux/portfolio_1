@@ -244,6 +244,64 @@ body {
       right: -100px;
     }
   }
+  .section-flower {
+    margin-top: 450px;
+    position: relative;
+
+    .block-text {
+      margin-left: 130px;
+      background-color: #fff;
+      display: inline-block;
+      padding: 15px 0;
+      .title {
+        font-size: 35px;
+        font-weight: 800;
+        max-width: 300px;
+        line-height: 40px;
+
+        margin-bottom: 30px;
+      }
+      .text {
+        font-size: 18px;
+        font-weight: 400;
+        max-width: 450px;
+        line-height: 30px;
+
+        margin-bottom: 40px;
+      }
+      .link {
+        font-size: 30px;
+        font-weight: 800;
+        max-width: 300px;
+        line-height: 40px;
+
+      }
+    }
+    .img-flower {
+      position: absolute;
+      top: -50px;
+      right: 0;
+      width: 900px;
+      z-index: -10;
+    }
+    .link-icon { //a
+      position: absolute;
+      background-color: #fff;
+      padding: 30px 150px 30px 90px;
+      top: 550px;
+      right: 0;
+
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .icon {
+      position: absolute;
+
+      top: 580px;
+      right: 110px;
+      font-size: 30px;
+    }
+  }
 }
 
 

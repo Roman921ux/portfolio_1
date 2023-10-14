@@ -72,6 +72,19 @@ function Main() {
           <button>Change now</button>
           <iframe className='card' src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa8bebd70ed8c5d89f28e0004a37f9205ee09b52c678fb77153d4de411012d9b0&amp;source=constructor" width="1000" height="800" frameborder="0"></iframe>
         </div>
+        <div className="section-flower">
+          <div className="block-text">
+             <div className="title">Lorem ipsum dolor sit ipsum dolor trom</div>
+             <div className="text">Lorem, ipsum dolor sit amet consectetur 
+                adipisicing elit. Minima, reprehenderit minus. Fugit, 
+                illo a iste doloremque rerum culpa unde aperiam.
+              </div>
+              <a className='link'>More Qured</a>
+          </div>
+          <img className='img-flower' src='imgs/flower.jpg'/>
+          <a className='link-icon'>Next <BsArrowRight className='icon'/></a>
+          <BsArrowRight className='icon'/>  
+        </div>
       </div>
     </main>
   )
