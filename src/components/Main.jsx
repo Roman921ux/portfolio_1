@@ -34,11 +34,11 @@ function Main() {
               <a className='icon-link' href='#'><AiFillInstagram className='icon' /></a>
             </div>
           </div>
-          <img className="img-tree" src='imgs/tree.jpg' />
+          <img className="img-tree" src='imgs/tree.png' />
           <BsArrowRight className="arrow" />
         </div>
         <div className="section-their">
-          <img className="img-leaf" src='imgs/fear.jpg' />
+          <img className="img-leaf" src='imgs/fear_1.png' />
           <div className="text-block">
             <div className="title">The I wrepit Evering
               Mydougs I redmer our let
@@ -81,12 +81,12 @@ function Main() {
             </div>
             <a className='link'>More Qured</a>
           </div>
-          <img className='img-flower' src='imgs/flower.jpg' />
+          <img className='img-flower' src='imgs/flower_1.png' />
           <a className='link-icon'>Next</a>
           <BsArrowRight className='icon' />
         </div>
         <div className="section-glass">
-          <img className="img-glass" src='/imgs/glass.jpg' />
+          <img className="img-glass" src='/imgs/glass_1.png' />
           <div className="text-block">
             <div className="title">Let me rogfert goutre coluort them</div>
             <div className="text-block_2">
