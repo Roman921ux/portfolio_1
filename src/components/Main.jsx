@@ -38,7 +38,7 @@ function Main() {
           <BsArrowRight className="arrow" />
         </div>
         <div className="section-their">
-          <img className="img-leaf" src='imgs/fear.jpg'/>
+          <img className="img-leaf" src='imgs/fear.jpg' />
           <div className="text-block">
             <div className="title">The I wrepit Evering
               Mydougs I redmer our let
@@ -48,15 +48,15 @@ function Main() {
             </div>
             <a className='link'>Show more</a>
           </div>
-          <BsArrowRight className='arrow'/>
+          <BsArrowRight className='arrow' />
         </div>
         <div className="section-card">
           <p>Choose</p>
-          <span>Let`s get <br/> acquailed</span>
+          <span>Let`s get <br /> acquailed</span>
           <div className="text-block">
             <div className="title">Show us</div>
             <div className="text">
-              Lorem ipsum dolor sit amet 
+              Lorem ipsum dolor sit amet
               consectetur adipisicing
               eveniet quam
             </div>
@@ -74,16 +74,52 @@ function Main() {
         </div>
         <div className="section-flower">
           <div className="block-text">
-             <div className="title">Lorem ipsum dolor sit ipsum dolor trom</div>
-             <div className="text">Lorem, ipsum dolor sit amet consectetur 
-                adipisicing elit. Minima, reprehenderit minus. Fugit, 
-                illo a iste doloremque rerum culpa unde aperiam.
-              </div>
-              <a className='link'>More Qured</a>
+            <div className="title">Lorem ipsum dolor sit ipsum dolor trom</div>
+            <div className="text">Lorem, ipsum dolor sit amet consectetur
+              adipisicing elit. Minima, reprehenderit minus. Fugit,
+              illo a iste doloremque rerum culpa unde aperiam.
+            </div>
+            <a className='link'>More Qured</a>
           </div>
-          <img className='img-flower' src='imgs/flower.jpg'/>
-          <a className='link-icon'>Next <BsArrowRight className='icon'/></a>
-          <BsArrowRight className='icon'/>  
+          <img className='img-flower' src='imgs/flower.jpg' />
+          <a className='link-icon'>Next</a>
+          <BsArrowRight className='icon' />
+        </div>
+        <div className="section-glass">
+          <img className="img-glass" src='/imgs/glass.jpg' />
+          <div className="text-block">
+            <div className="title">Let me rogfert goutre coluort them</div>
+            <div className="text-block_2">
+              <div className="text">
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+              </div>
+              <div className="text">
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                  Quos debitis tempora quasi distinctio,
+                  hic voluptas. Eveniet veritatis officiis.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
