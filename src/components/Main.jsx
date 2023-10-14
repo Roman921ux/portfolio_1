@@ -50,6 +50,28 @@ function Main() {
           </div>
           <BsArrowRight className='arrow'/>
         </div>
+        <div className="section-card">
+          <p>Choose</p>
+          <span>Let`s get <br/> acquailed</span>
+          <div className="text-block">
+            <div className="title">Show us</div>
+            <div className="text">
+              Lorem ipsum dolor sit amet 
+              consectetur adipisicing
+              eveniet quam
+            </div>
+          </div>
+          <div className="text-block">
+            <div className="title">In rench</div>
+            <div className="text">Growen text</div>
+          </div>
+          <div className="text-block">
+            <div className="title">Letrosen</div>
+            <div className="text">Feared fier</div>
+          </div>
+          <button>Change now</button>
+          <iframe className='card' src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa8bebd70ed8c5d89f28e0004a37f9205ee09b52c678fb77153d4de411012d9b0&amp;source=constructor" width="1000" height="800" frameborder="0"></iframe>
+        </div>
       </div>
     </main>
   )
